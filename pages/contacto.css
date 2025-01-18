@@ -1,0 +1,85 @@
+.contacto__container {
+  background-color: rgba(19, 23, 28, 1);
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  padding: 0px 31px 190px;
+  color: white;
+}
+
+@media (min-width: 960px) {
+  .contacto__container {
+    flex-direction: row;
+    padding: 254px 108px;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 960px) {
+  .contacto__form {
+    width: 600px;
+  }
+
+  .contacto__label-name,
+  .contacto__label-email {
+    width: 288px;
+  }
+}
+
+.contacto__title {
+  font-weight: 700;
+  font-size: 42px;
+  margin: 39px 0px;
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  .contacto__title {
+    font-size: 64px;
+    margin: 0;
+  }
+}
+
+.contacto__form-input-name,
+.contacto__form-input-email,
+.contacto__form-input-mensaje {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.input {
+  font-family: "Poppins";
+  border: none;
+  resize: none;
+  font-weight: 700;
+  border-radius: 16px;
+  color: rgba(238, 238, 238, 0.5);
+  background-color: rgba(57, 62, 70, 0.5);
+  margin-bottom: 30px;
+}
+
+.textarea-input {
+  height: 280px;
+}
+
+.button {
+  background-color: rgba(0, 173, 181, 1);
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-size: 18px;
+  height: 55px;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .button {
+    width: 231px;
+  }
+}
+
+@media (min-width: 960px) {
+  .contacto__container-nye {
+    display: flex;
+    justify-content: space-between;
+  }
+}

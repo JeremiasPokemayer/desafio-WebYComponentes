@@ -1,0 +1,157 @@
+.misTrabajos__container-intro {
+  font-family: "Poppins";
+  background-color: rgba(19, 23, 28, 1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 724px;
+}
+
+.misTrabajos__image-intro {
+  width: 219px;
+  height: 211px;
+}
+
+.misTrabajos__title-intro {
+  display: flex;
+  flex-direction: column;
+  margin: 95px 0 33px;
+  font-weight: 700;
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-blanco {
+  color: white;
+}
+
+.color-cyan {
+  color: rgba(0, 173, 181, 1);
+}
+
+@media (min-width: 960px) {
+  .misTrabajos__container-intro {
+    font-family: "Poppins";
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1024px;
+    width: 100%;
+  }
+
+  .misTrabajos__image-intro {
+    width: 353px;
+    height: 340px;
+  }
+
+  .misTrabajos__sombra-intro {
+    width: 348px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    opacity: 0.5;
+    padding: 80px 0px 0px;
+    margin: 80px 0px 0px;
+  }
+
+  .misTrabajos__container-iys {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .misTrabajos__title-intro {
+    display: grid;
+    flex-direction: column;
+    margin: 0 0 57px 0;
+    width: 586px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: left;
+  }
+}
+
+.misTrabajos__container,
+.misTrabajos__container-trabajos-contAdicional {
+  font-family: "Poppins";
+  position: relative;
+  overflow: hidden;
+  color: white;
+  padding: 77px 26px 120px;
+  background-color: rgba(19, 23, 28, 1);
+  background-image: url("https://i.ibb.co/S3VnXHD/doodle-items.png");
+  height: auto;
+}
+
+@media (min-width: 960px) {
+  .misTrabajos__container {
+    padding: 104px 130px 151px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .portfolio__content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+.misTrabajos__container-trabajos {
+  background-color: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(4px);
+  display: grid;
+  flex-direction: column;
+  margin: 0px 26px 48px;
+  border-radius: 16px;
+  justify-items: center;
+}
+
+@media (min-width: 960px) {
+  .misTrabajos__container-trabajos {
+    margin: 0;
+    width: 360px;
+  }
+}
+
+.misTrabajos__image {
+  margin: 42px 29px 25px;
+  height: 168px;
+  width: 265px;
+}
+
+.misTrabajos__subtitle {
+  margin: 0px 22px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.misTrabajos__text {
+  margin: 10px 22px 50px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.misTrabajos__button-verMas {
+  position: absolute;
+  bottom: 70px;
+  left: 140px;
+}
+
+@media (min-width: 960px) {
+  .misTrabajos__button-verMas {
+    position: absolute;
+    bottom: 60px;
+    left: inherit;
+  }
+}
+
+.misTrabajos__span-verMas {
+  color: rgba(238, 238, 238, 1);
+}

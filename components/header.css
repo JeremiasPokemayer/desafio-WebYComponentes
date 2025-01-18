@@ -1,0 +1,121 @@
+.header__header {
+  background-color: rgba(19, 23, 28, 1);
+}
+
+.header__servicios-mobile {
+  display: flex;
+  height: 114px;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .header__servicios-mobile {
+    display: none;
+  }
+}
+
+.header__logo-image {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 17px;
+  left: 37px;
+}
+
+.header__button-ventanaAbrir {
+  background-color: rgba(19, 23, 28, 1);
+  border: none;
+  position: absolute;
+  top: 37px;
+  right: 37px;
+}
+
+@media (min-width: 960px) {
+  .header__button-ventanaAbrir {
+    display: none;
+  }
+}
+
+.header__button-image {
+  height: 40px;
+  width: 40px;
+}
+
+.header__servicios-desktop {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .header__servicios-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 121px;
+    width: 90%;
+    margin: 0 88px;
+  }
+
+  .header__logo-image {
+    position: inherit;
+  }
+
+  .header__servicios-desktop-portfolio,
+  .header__servicios-desktop-servicios,
+  .header__servicios-desktop-contacto {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .header__ventana-links-servicios {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    height: 47px;
+    align-items: center;
+  }
+}
+
+.header__ventana-servicios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 1);
+  display: none;
+  height: 838px;
+}
+
+.header__button-ventanaCerrar {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+
+.header__ventana-links-servicios-oculta {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.header__servicios-desktop-portfolio-oculta,
+.header__servicios-desktop-servicios-oculta,
+.header__servicios-desktop-contacto-oculta {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 42px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}

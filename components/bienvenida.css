@@ -1,0 +1,82 @@
+.bienvenida__container {
+  font-family: "Poppins";
+  background-color: rgba(19, 23, 28, 1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 724px;
+}
+
+.bienvenida__image {
+  width: 219px;
+  height: 211px;
+  margin-top: 54px;
+}
+
+.bienvenida__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 57px 0;
+  width: 228px;
+  height: 225px;
+  font-weight: 700;
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  .bienvenida {
+    background-color: rgba(19, 23, 28, 1);
+  }
+  .bienvenida__container {
+    font-family: "Poppins";
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1024px;
+    width: 100%;
+  }
+
+  .bienvenida__image {
+    width: 353px;
+    height: 340px;
+  }
+
+  .bienvenida__sombra-intro {
+    width: 348px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 80px 0px 0px;
+    margin: 80px 0px 0px;
+    opacity: 0.5;
+  }
+
+  .bienvenida__container-iys {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bienvenida__title {
+    display: grid;
+    flex-direction: column;
+    margin: 0 0 57px 0;
+    width: 586px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: left;
+  }
+}
+
+.color-blanco {
+  color: white;
+}
+
+.color-cyan {
+  color: rgba(0, 173, 181, 1);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./components/bienvenida.css" />
+    <link rel="stylesheet" href="./pages/contacto.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/bienvenida.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/index.js"></script>
+    <script defer src="./pages/contacto.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="contenedor-all">
+      <div class="bienvenida"></div>
+      <div class="presentacion__content"></div>
+      <template id="presentacion__content-template">
+        <section class="presentacion">
+          <div class="presentacion__container">
+            <div class="presentacion__container-text">
+              <h2 class="presentacion__title">Soy Jeremias</h2>
+              <p class="presentacion__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Aliquam, vitae maxime excepturi eveniet deleniti neque
+                dignissimos natus totam quod quia corrupti sequi voluptatibus
+                explicabo, commodi, pariatur magni quaerat doloribus molestias.
+              </p>
+            </div>
+            <img
+              class="presentacion__image"
+              src="https://i.ibb.co/QmdgVGc/DALL-E-2025-01-16-20-13-19-A-cartoon-style-portrait-of-a-young-man-with-short-dark-hair-wearing-a-bl.webp"
+              alt=""
+            />
+          </div>
+        </section>
+      </template>
+      <section class="servicios">
+        <div class="servicios__container-all">
+          <h2 class="servicios__title">
+            <span class="servicios__text-white">Mis</span>
+            <span class="servicios__text-cyan">servicios</span>
+          </h2>
+          <div class="servicios__content"></div>
+          <template id="servicios__content-template">
+            <div class="servicios__container-servicios">
+              <div class="servicios__container">
+                <img
+                  class="servicios__image"
+                  src="https://i.ibb.co/JvQTJjy/cat-1280122-1280.jpg"
+                  alt=""
+                />
+                <h4 class="servicios__subtitle">Un servicio</h4>
+                <p class="servicios__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Molestias quod possimus dolorum, tempore inventore aspernatur
+                  libero natus tenetur consequuntur reprehenderit at repellat
+                  facilis fuga nam necessitatibus nobis, animi, aliquid
+                  accusantium.
+                </p>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+      <div class="contacto"></div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
